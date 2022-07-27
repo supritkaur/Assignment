@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Name">Name</string>
+    <string name="Phone">Phone</string>
+    <string name="please_enter_Email">please enter Email</string>
+    <string name="please_enter_Password">please enter Password</string>
+    <string name="plese_enter_Phone">please enter Phone</string>
+    <string name="Login_Successfully">Login Successfully</string>
+    <string name="Gender">Gender</string>
+    <string name="She">She</string>
+    <string name="He">He</string>
+    <string name="Others">Others</string>
+    <string name="Enter_Other_Gender">Enter Other Gender</string>
+    <string name="NewPassword">NewPassword</string>
+    <string name="ForgotPassword">ForgotPassword</string>
+    <string name="please_enter_name">please enter name</string>
+    <string name="please_enter_NewPassword">please enter NewPassword</string>
+    <string name="Signup">Signup</string>
+    <string name="enter_valid_email">Enter valid email</string>
+</resources>
