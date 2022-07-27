@@ -81,7 +81,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etEnterOtherGender"
-        android:hint="@string/Enter_Other_Gender"/>
+        android:hint="@string/Enter_Other_Gender"
+        android:visibility="invisible"/>
 
     <Button
                android:layout_width="match_parent"

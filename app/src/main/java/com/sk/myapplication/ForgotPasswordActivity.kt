@@ -47,6 +47,8 @@ class ForgotPasswordActivity : AppCompatActivity() {
         var Password = etPassword.text.toString()
         var Phone = etPhone.text.toString()
         var NewPassword = etNewPassword.text.toString()
+
+
         if (Name.isNullOrEmpty()) {
             etName.error = "please enter Name"
             etName.requestFocus()

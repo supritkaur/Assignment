@@ -33,22 +33,14 @@ class MainActivity : AppCompatActivity() {
         rbHe=findViewById(R.id.rbHe)
         rbOthers=findViewById(R.id.rbOthers)
         rgGender=findViewById(R.id.rgGender)
-
-
-            btnLogin.setOnClickListener {
-            System.out.println("Login Clicked")
-            etPassword.doOnTextChanged { text, start, before, count ->
+        etPassword.doOnTextChanged { text, start, before, count ->
             if ((text?.length?:0)<6){
                 etPassword.error=resources.getString(R.string.please_enter_Password)
             }else{
                 etPassword.error=null
             }
-            }
-                tvForgotPassword=findViewById(R.id.tvForgotPassword)
-                tvForgotPassword.setOnClickListener {
-                    var intent = Intent(this, ForgotPasswordActivity::class.java)
-                    startActivity(intent)
-                }
+        }
+
 
         rgGender.setOnCheckedChangeListener { radioGroup, int ->
             when (int) {
@@ -62,8 +54,14 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
-    var Email = etEmail.text.toString()
+        tvForgotPassword=findViewById(R.id.tvForgotPassword)
+        tvForgotPassword.setOnClickListener {
+            var intent = Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(intent)
+        }
+            btnLogin.setOnClickListener {
+            System.out.println("Login Clicked")
+                var Email = etEmail.text.toString()
     var Password = etPassword.text.toString()
     var Phone =etPhone.text.toString()
             System.out.println("Email $Email")
