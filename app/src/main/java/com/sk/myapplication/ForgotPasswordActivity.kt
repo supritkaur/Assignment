@@ -68,6 +68,9 @@ class ForgotPasswordActivity : AppCompatActivity() {
             etNewPassword.error="please enter NewPassword"
             etNewPassword.requestFocus()
     }else {Toast.makeText(this,"Signup successful",Toast.LENGTH_LONG).show();
+            var intent = Intent(this, otpactivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }

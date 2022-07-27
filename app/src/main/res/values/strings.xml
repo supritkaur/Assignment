@@ -19,4 +19,5 @@
     <string name="please_enter_NewPassword">please enter NewPassword</string>
     <string name="Signup">Signup</string>
     <string name="enter_valid_email">Enter valid email</string>
+    <string name="OTP">OTP</string>
 </resources>
